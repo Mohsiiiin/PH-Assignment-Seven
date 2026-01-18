@@ -4,7 +4,7 @@ import Navbar from './components/Navbar'
 import TicketContainer from './components/TicketContainer'
 import Footer from './components/Footer';
 
-const loadTrickets = () => fetch("/public/tricket.json")
+const loadTrickets = () => fetch('/tricket.json')
 .then((res) => res.json());
 
 function App() {
